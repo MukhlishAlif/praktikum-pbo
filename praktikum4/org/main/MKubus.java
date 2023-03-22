@@ -12,10 +12,10 @@ import org.bangunruang.Kubus;
 public class MKubus {
 
     public static void main(String[] args) {
-        BujurSangkar bujursangkar = new BujurSangkar(4);
+        BujurSangkar bujursangkar = new BujurSangkar(5);
         Kubus kubus = new Kubus(bujursangkar);
 
-        BujurSangkar bujurSangkar2 = new BujurSangkar(12);
+        BujurSangkar bujurSangkar2 = new BujurSangkar(10);
         Kubus kubus2 = new Kubus(bujurSangkar2);
 
         System.out.println("Luas Alas Kubus: " + kubus.hitungLuasAlas());
